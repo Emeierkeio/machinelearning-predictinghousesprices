@@ -50,12 +50,14 @@ Applicando il nodo “Statistics” abbiamo potuto vedere se gli attributi del n
 valori mancanti tra i nostri dati. Successivamente per studiare la variabile target ‘price’, abbiamo deciso di utilizzare un boxplot per osservare i suoi valori, come mediana, primo e secondo quar- tile e ovviamente il suo comportamento per quanto riguarda asimmetrie e outliers. Da ciò che appare si nota una forte asim- metria positiva con una coda molto lunga sulla parte superiore del boxplot.
 
 ![machinelearning-predicthouseprices](./img/2.jpeg)
+
 *<b>Fig. 2</b>. Visualizzazione boxplot del prezzo.*
 
 Abbiamo poi utilizzato i boxplot anche per valutare le altre
 variabili nel nostro dataset:
 
 ![machinelearning-predicthouseprices](./img/3.jpeg)
+
 *<b>Fig. 3</b>. Visualizzazione boxplot di tutte le variabili.*
 
 Si nota dal grafico che tre delle nostre variabili a disposizione presentano asimmetria positiva: price, sqrt_lot e sqrt_lot15. Va- luteremo in seguito se sarà necessario applicare una trasfor- mazione logaritmica a queste variabili al fine di normalizzare la loro distribuzione ed eliminare di conseguenza la forte asimme- tria positiva. All’interno della sezione relativa al preproccessing spiegheremo come abbiamo trattato gli outliers nel dataset.
@@ -64,14 +66,17 @@ Abbiamo inoltre deciso di controllare tramite un istogramma se ci fosse un aumen
 
 
 ![machinelearning-predicthouseprices](./img/4.jpeg)
+
 *<b>Fig. 4</b>. Istogramma: numero di case costruite negli anni dal 1900 al 2015.*
 
 Inoltre, abbiamo voluto studiare le 50 case più costose in relazione alle 50 case meno costose sulle variabili n_bedrooms, n_bathrooms, sqrt_living e sqrt_lot per capire se ci fosse un pattern ricorrente che influenzasse il prezzo. Dai grafici questo è ciò che si può notare:
 
 ![machinelearning-predicthouseprices](./img/5.jpeg)
+
 *<b>Fig. 5</b>. 500 case più costose.*
 
 ![machinelearning-predicthouseprices](./img/6.jpeg)
+
 *<b>Fig. 6</b>. 500 case meno costose.*
 
 Le case più costose oltre ad un prezzo maggiore presentano anche un numero di elementi maggiori al loro interno come: un maggior numero di stanze da letto, di bagni, una metratura totale degli ambienti interni dell’immobile e una metratura dello spazio esterno dell’immobile sempre maggiore rispetto a quelle meno costose.
