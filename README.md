@@ -81,7 +81,7 @@ Inoltre, abbiamo voluto studiare le 50 case più costose in relazione alle 50 ca
 
 Le case più costose oltre ad un prezzo maggiore presentano anche un numero di elementi maggiori al loro interno come: un maggior numero di stanze da letto, di bagni, una metratura totale degli ambienti interni dell’immobile e una metratura dello spazio esterno dell’immobile sempre maggiore rispetto a quelle meno costose.
 
-<u>*Leggi il report per ulteriori informazioni, modelli utilizzati e conclusioni!*</u>
+<u>*Leggi il [report](Report.pdf) per ulteriori informazioni, modelli utilizzati e conclusioni!*</u>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
