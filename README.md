@@ -10,6 +10,7 @@ Il nostro studio nasce dalla curiosità di analizzare le caratteris- tiche del m
 Per rispondere alla domanda di ricerca è stato utilizzato il dataset disponibile sulla piattaforma [Kaggle](https://www.kaggle.com/): esso contiene i prezzi delle case vendute tra il Maggio 2014 e il Maggio 2015 nella Contea di King, la più popolosa all’interno dello Stato di Washington (Stati Uniti).
 
 ![machinelearning-predicthouseprices](./img/1.jpeg)
+
 *<b>Fig. 1</b>. Mappa di densità delle proprietà in vendita e proprietà estreme: la più cara (in verde) e la meno cara (in rosso)*
 
 Seattle è il capoluogo della Contea di King: con i suoi 750.000 abitanti, essa è la città più popolosa della Contea e tra città più popolose negli Stati Uniti. Il suo sviluppo lo ha portato ad essere tra le prime cinque città per aumento della popolazione fino al 2015 con una crescita annuale del 2,1% Questa impor- tanza è sicuramente data dalla sua posizione strategica: infatti, all’interno del territorio è presente il quarto porto più grande del Nord America considerato uno snodo fondamentale per il commercio asiatico. Inoltre, la città di Seattle offre un’altissima qualità della vita, possiede il numero più alto di laureati di tutti gli Stati Uniti (53,8%) ed è base di grandi aziende tecnologiche come Microsoft, Boeing, Amazon e Real Networks.
